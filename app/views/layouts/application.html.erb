@@ -10,7 +10,8 @@
   </head>
 
   <body>
-    <div id="container">
+    <%= yield %>
+     <div id="container">
       <div id="theTarget">
         <div class="image1"></div>
         <div class="image2"></div>
@@ -19,7 +20,5 @@
         <div class="image5"></div>
       </div>
     </div>
-    <%= yield %>
-
   </body>
 </html>
